@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+  overflow: scroll;
+}
+
+
+
+.nav ul {
+  list-style: none;
+
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Century Gothic', sans-serif;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: floralwhite;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  color: darkgoldenrod;
+    text-decoration: none;
+}
+ 
+.nav a.active {
+  cursor: default;
+}
+
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1em;
+  }
+ 
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+    .logo {
+        margin:0px auto;
+    }
+
+    
+    
+    #about {
+        font-family: 'Century Gothic', sans-serif;
+        font-size: 16, thin;
+        margin-right:  240;
+        margin-left: 240;
+        margin-bottom: 270;
+        color: floralwhite;
+        text-align: center;
+        background: rgba(100, 100, 100, 0.3);
+        border-style: double;
+    }
+    
+    
+    
+    .consultation {
+        text-decoration: none;
+      color: floralwhite;
+    } 
+    
+    
+    .consultation:hover {
+        color: darkgoldenrod;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    .sticky-bar {
+background: rgba(0, 0, 0, 0.7);
+
+bottom: 0;
+color: #fff;
+font-weight: 700;
+left:0;
+margin: 0;
+opacity: 0.9;
+padding: 0;
+position:fixed;
+        height: 35px;
+width: 100%;
+z-index:99999;
+}
+
+.sticky-bar-inner {
+margin:0 auto;
+padding: 2px 0;
+text-align: right;
+width:90%;
+}
+   
+    #footerlist li
+{
+  display: inline;
+    margin-right: 10px;
+  list-style-type: none;
+    
+}
+    
+    #address {
+     text-align: left;
+        font-family: 'Century Gothic', sans-serif;
+        color: floralwhite;
+        text-decoration: none;
+        font-weight: 100;
+        font-size: 12;
+    }
