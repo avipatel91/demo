@@ -5,65 +5,121 @@ body {
     background-size: cover;
     position: relative;
   overflow: scroll;
+    background-color: white;
+}
+
+
+.nav-test {
+    background-color: black !important;
+    border: white !important;
 }
 
 
 
-.nav ul {
-  list-style: none;
+.logo {
+height: 140px !important;
+    width:150px;
+    padding-top: 0px !important;
+    padding-bottom: 8px;
+}
 
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
-.nav li {
-  font-family: 'Century Gothic', sans-serif;
-  line-height: 40px;
-  height: 40px;
-  border-bottom: 1px solid #888;
-}
- 
-.nav a {
-  text-decoration: none;
-  color: floralwhite;
-  transition: .3s background-color;
-}
- 
-.nav a:hover {
-  color: darkgoldenrod;
+.navbar-nav li a {
+    font-family: 'Century Gothic', sans-serif;
     text-decoration: none;
+    font-size: 14px;
+    font-weight: 50;
+    height: 40px;
+    margin-top: 10px;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: floralwhite !important;
+    padding-top: 50px;
 }
- 
-.nav a.active {
-  cursor: default;
+
+.nav-test a:hover {
+  color: darkgoldenrod !important;
+    text-decoration: none;
+
 }
 
- 
-@media screen and (min-width: 600px) {
-  .nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1em;
-  }
- 
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
- 
-    .logo {
-        margin:0px auto;
-    }
+html, body {
+  height: 100%;
+  width: 100%;
+}
 
-    
-    
-    
 
+
+
+
+
+
+
+
+
+
+ul.background {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+    background-size:cover;
+      background-position: center center;
+      height: 100%;
     
-    
-    
+}
+li.backgroundli {
+  position: absolute;
+    background-size: cover;
+}
+img{
+  box-shadow: 0 0 5px 0 hsla(0,0%,30%, .3);
+}
+li.backgroundli:nth-child(1) {
+  animation: xfade 48s 36s infinite;
+}
+li.backgroundli:nth-child(2) {
+  animation: xfade 48s 30s infinite;
+}
+li.backgroundli:nth-child(3) {
+  animation: xfade 48s 24s infinite;
+}
+li.backgroundli:nth-child(4) {
+  animation: xfade 48s 18s infinite;
+}
+li.backgroundli:nth-child(5) {
+  animation: xfade 48s 12s infinite;
+}
+li.backgroundli:nth-child(6) {
+  animation: xfade 48s 6s infinite;
+}
+li.backgroundli:nth-child(7) {
+  animation: xfade 48s 0s infinite;
+}
+
+
+
+@keyframes xfade{
+     0%{
+      opacity: 1;
+   }
+   10.5% {
+      opacity:1;
+   }
+   12.5%{
+      opacity: 0;
+   }
+   98% {
+      opacity:0;
+   }
+   100% {
+      opacity:1;
+   }
+}
+
+
+
+
+
     
     .sticky-bar {
 background: rgba(0, 0, 0, 0.7);
@@ -97,10 +153,15 @@ width:90%;
 }
     
     #address {
-     text-align: left;
         font-family: 'Century Gothic', sans-serif;
         color: floralwhite;
         text-decoration: none;
         font-weight: 100;
         font-size: 12;
+        text-transform: uppercase;
+    letter-spacing: .04em;
+        float: left;
+        padding-top: 6px;
     }
+    
+    

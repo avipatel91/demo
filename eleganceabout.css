@@ -5,57 +5,85 @@ body {
     background-size: cover;
     position: relative;
   overflow: scroll;
+    background-color: white;
+}
+
+
+.nav-test {
+    background-color: black !important;
+    border: white !important;
 }
 
 
 
-.nav ul {
-  list-style: none;
+.logo {
+height: 140px !important;
+    width:150px;
+    padding-top: 0px !important;
+    padding-bottom: 8px;
+}
 
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
-.nav li {
-  font-family: 'Century Gothic', sans-serif;
-  line-height: 40px;
-  height: 40px;
-  border-bottom: 1px solid #888;
-}
- 
-.nav a {
-  text-decoration: none;
-  color: floralwhite;
-  transition: .3s background-color;
-}
- 
-.nav a:hover {
-  color: darkgoldenrod;
+.navbar-nav li a {
+    font-family: 'Century Gothic', sans-serif;
     text-decoration: none;
-}
- 
-.nav a.active {
-  cursor: default;
+    font-size: 14px;
+    font-weight: 50;
+    height: 40px;
+    margin-top: 10px;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: floralwhite !important;
+    padding-top: 50px;
 }
 
- 
-@media screen and (min-width: 600px) {
-  .nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1em;
-  }
- 
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
- 
-    .logo {
-        margin:0px auto;
-    }
+.nav-test a:hover {
+  color: darkgoldenrod !important;
+    text-decoration: none;
+
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+/*background image*/
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+html, body{
+  height: 100%;
+}
+
+body { 
+			background-image: url(EDBackgroundImage7.jpg) ;
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+  
+}
+
+div, body{
+  margin: 0;
+  padding: 0;
+  font-family: exo, sans-serif;
+  
+}
+.wrapper {
+
+  width: 100%; 
+}
+
+
 
     
     
@@ -65,6 +93,7 @@ body {
         margin-right:  240;
         margin-left: 240;
         margin-bottom: 270;
+        margin-top: 70;
         color: floralwhite;
         text-align: center;
         background: rgba(100, 100, 100, 0.3);

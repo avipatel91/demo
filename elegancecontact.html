@@ -1,37 +1,56 @@
 <html>
     <head>
     <title>Elegance Decor</title>
+          <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel= "stylesheet" href= "elegancecontact.css">
-        <script type="text/javascript" src=navbar.js> </script>
-       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="cssfontawesome/font-awesome.min.css">
-        <link rel="stylesheet" href="bootstrap-social-gh-pages/bootstrap-social.less">
-        <header>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Exo:400,900' rel='stylesheet' type='text/css'>
+        
+         <header>
+   
+            
+            <nav class="navbar-default nav-test">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="logo" href="elegancehome.html"><img src="Elegance-Decor-Logo-02.png" class="logo" ></a>
+            </div>
 
-            
-            <div class="nav">
-<ul class="navigation">
-  <li><a class="w3-green" href="#">BLOG</a></li>
-  <li><a href="#">MEDIA</a></li>
-  <li><a href="#">GALLERY</a></li>
-  <li><a href="eleganceabout.html">ABOUT</a></li>
-    
-    <a href="elegancehome.html">
-        <img src="Logo%20Transparent%20Black%202.gif" class="logo" alt="elegance logo" style="width:270px;height:210px;border:0;"> </a>
-    
-  <li><a href="#">CAPABILITIES</a></li>
-  <li><a href="elegancereviews.html" class="edreviews">REVIEWS</a></li>
-     <li><a href="elegancecontact.html">CONTACT</a></li>
-    <li><a href="#">SEARCH</a></li>
-</ul>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="eleganceabout.html">About</a></li>
+                    <li><a href="elegancegallery.html">Gallery</a></li>
+                    <li><a href="elegancecapabilities.html">Capabilities</a></li>
+                    <li><a href="elegancereviews.html">Reviews</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="elegancecontact.html">Contact</a></li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-            
-            
-        </header>
+        <!-- /.container -->
+    </nav>
+	</header>
 
         </head>
-        <body background="EDBackgroundImage4.jpg">
-            
+    
+    
+    
+    
+    <body>
+<div class="wrapper">
+
+</div>
          
             
           <form onSubmit="return false">
@@ -47,14 +66,14 @@
       <input placeholder="What is your last name?" id="lastname" name="lastname" tabindex="2">
     </label>
   </div>
-    <div class="col-2">
+   <div class="col-2">
     <label>
       Email *
-      <input placeholder="What is your e-mail address?" id="email" name="email" tabindex="3">
+      <input placeholder="What is your email address?" id="email" name="email" tabindex="3">
     </label>
   </div>
  
-  <div class="col-3">
+  <div class="col-2">
     <label>
       Phone Number *
       <input placeholder="What is the best number to reach you?" id="phone" name="phone" tabindex="4">
@@ -84,11 +103,30 @@
       <input placeholder="How many people will be attending?" id="guest" name="guest" tabindex="7">
     </label>
   </div>
-              
+       <div class="col-3">
+      <label>
+      Decor Budget *
+      <select tabindex="8">
+          <option>Choose One</option>
+        <option>Less than $8K</option>
+        <option>$9K - $14K </option>
+        <option>$15K - $20K</option>
+          <option>$21K - $26K</option>
+          <option>$27K - $32K</option>
+          <option>$33K - $38K</option>
+           <option>$39K - $44K</option>
+           <option>$45K - $50K</option>
+          <option>$51K - $56K</option>
+          <option>$57K - $62K</option>
+          <option>$63K - 69K</option>
+          <option>More than $70K</option>
+      </select>
+    </label>
+  </div>       
   <div class="col-5">
     <label>
         Event 1
-      <select tabindex="8">
+      <select tabindex="9">
           <option>Choose One</option>
         <option>Hindu Wedding</option>
         <option>Christian Wedding</option>
@@ -106,7 +144,7 @@
   <div class="col-5">
     <label>
       Event 2
-      <select tabindex="9">
+      <select tabindex="10">
           <option>Choose One</option>
         <option>Hindu Wedding</option>
         <option>Christian Wedding</option>
@@ -124,7 +162,7 @@
   <div class="col-5 switch">
     <label>
       Event 3
-      <select tabindex="10">
+      <select tabindex="11">
           <option>Choose One</option>
        <option>Hindu Wedding</option>
         <option>Christian Wedding</option>
@@ -142,7 +180,7 @@
         <div class="col-5 switch">
     <label>
       Event 4
-      <select tabindex="11">
+      <select tabindex="12">
           <option>Choose One</option>
         <option>Hindu Wedding</option>
         <option>Christian Wedding</option>
@@ -160,7 +198,7 @@
               <div class="col-4">
     <label>
       How did you hear about us? *
-      <select tabindex="12">
+      <select tabindex="13">
           <option>Choose One</option>
         <option>Family/Friend</option>
         <option>Web Search</option>
@@ -174,26 +212,6 @@
     </label>
   </div>
               
- <div class="col-4">
-      <label>
-      Decor Budget *
-      <select tabindex="13">
-          <option>Choose One</option>
-        <option>Less than $8K</option>
-        <option>$9K - $14K </option>
-        <option>$15K - $20K</option>
-          <option>$21K - $26K</option>
-          <option>$27K - $32K</option>
-          <option>$33K - $38K</option>
-           <option>$39K - $44K</option>
-           <option>$45K - $50K</option>
-          <option>$51K - $56K</option>
-          <option>$57K - $62K</option>
-          <option>$63K - 69K</option>
-          <option>More than $70K</option>
-      </select>
-    </label>
-  </div>
   <div class="col-4">
     <label>
       Additional Comments
